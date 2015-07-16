@@ -1,0 +1,4 @@
+ # file: .travis.yml
+language: objective-c
+script:
+  - xcodebuild -project TestProject.xcodeproj -scheme TestProject -sdk iphonesimulator
