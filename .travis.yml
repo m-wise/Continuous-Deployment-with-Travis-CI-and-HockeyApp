@@ -1,4 +1,14 @@
  # file: .travis.yml
 language: objective-c
+
+branches:
+ only:
+ - master
+ 
+xcode_project: TestProject.xcodeproj
+xcode_scheme: TestProject
+osx_image: xcode6.4
+xcode_sdk: iphonesimulator8.4 
+
 script:
   - xcodebuild -project TestProject/TestProject.xcodeproj -scheme TestProject -sdk iphonesimulator
