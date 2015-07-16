@@ -16,6 +16,6 @@ script:
   
 before_install:
   #- sudo gem install cocoapods
-  - sudo gem install cocoapods --pre
+  - gem install cocoapods --pre
   - brew update
   - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
