@@ -5,14 +5,14 @@ branches:
  only:
  - master
  
-xcode_project: TestProject.xcodeproj
-xcode_scheme: TestProject
+xcode_project: CIProject.xcodeproj
+xcode_scheme: CIProject
 osx_image: xcode6.4
 xcode_sdk: iphonesimulator8.4 
 
 script:
-  - xctool -workspace TesProject/TestProject.xcworkspace -scheme TestProject -sdk iphonesimulator
-  - xctool test -workspace TesProject/TestProject.xcworkspace -scheme TestProjectTests -sdk iphonesimulator
+  - xctool -workspace CIProject.xcworkspace -scheme CIProject -sdk iphonesimulator
+  - xctool test -workspace CIProject.xcworkspace -scheme CIProjectTests -sdk iphonesimulator
   
 before_install:
   - sudo gem install cocoapods
