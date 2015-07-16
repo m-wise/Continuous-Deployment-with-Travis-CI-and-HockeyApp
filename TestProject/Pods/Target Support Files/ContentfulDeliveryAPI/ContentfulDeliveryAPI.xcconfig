@@ -1,1 +1,0 @@
-CONTENTFULDELIVERYAPI_OTHER_LDFLAGS = -framework "MapKit" -framework "UIKit"
