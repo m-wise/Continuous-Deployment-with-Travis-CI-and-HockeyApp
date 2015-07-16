@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Amplitude-iOS (2.5.1)
+  - ContentfulDeliveryAPI (1.7.4):
+    - AFNetworking (>= 2.5.3)
+    - ISO8601DateFormatter
+  - HockeySDK (3.7.1):
+    - HockeySDK/AllFeaturesLib (= 3.7.1)
+  - HockeySDK/AllFeaturesLib (3.7.1)
+  - ISO8601DateFormatter (0.7)
+  - Typhoon (3.2.1):
+    - Typhoon/no-arc (= 3.2.1)
+  - Typhoon/no-arc (3.2.1)
+
+DEPENDENCIES:
+  - Amplitude-iOS (~> 2.5)
+  - ContentfulDeliveryAPI
+  - HockeySDK (~> 3.7.1)
+  - Typhoon (~> 3.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Amplitude-iOS: 1108012e40096d339d768cb8a6d79c774f47da2c
+  ContentfulDeliveryAPI: 84eb58ed01d97fec339844436239c39e999f8092
+  HockeySDK: 77bb90b6484a3b742ccf32bcae247c0a0051a962
+  ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
+  Typhoon: 18ec2ddce9dcb039d5c82bd7e4235e7868faaa06
+
+COCOAPODS: 0.38.0.beta.2
