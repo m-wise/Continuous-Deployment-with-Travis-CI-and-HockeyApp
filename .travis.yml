@@ -11,4 +11,10 @@ osx_image: xcode6.4
 xcode_sdk: iphonesimulator8.4 
 
 script:
-  - xcodebuild -project TestProject/TestProject.xcodeproj -scheme TestProject -sdk iphonesimulator
+  - xctool -workspace TesProject/TestProject.xcworkspace -scheme TestProject -sdk iphonesimulator
+  - xctool test -workspace TesProject/TestProject.xcworkspace -scheme TestProjectTests -sdk iphonesimulator
+  
+before_install:
+  - sudo gem install cocoapods
+  - brew update
+  - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
