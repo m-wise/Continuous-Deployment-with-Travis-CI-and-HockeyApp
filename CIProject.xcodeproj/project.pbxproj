@@ -442,7 +442,7 @@
 				INFOPLIST_FILE = CIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "135f5b01-ff55-47f1-a9cf-7b565b292d25";
+				PROVISIONING_PROFILE = "e40f6f2a-ad1f-4ee0-a095-9f3f1b4a2d80";
 			};
 			name = Release;
 		};
@@ -558,7 +558,7 @@
 				9A3586521B58FE1500D7953C /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 		9A35864C1B582A5E00D7953C /* Build configuration list for PBXNativeTarget "CIProject" */ = {
 			isa = XCConfigurationList;
@@ -568,7 +568,7 @@
 				9A3586531B58FE1500D7953C /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 		9A35864F1B582A5E00D7953C /* Build configuration list for PBXNativeTarget "CIProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -578,7 +578,7 @@
 				9A3586541B58FE1500D7953C /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Ad Hoc";
 		};
 /* End XCConfigurationList section */
 	};
