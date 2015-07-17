@@ -191,6 +191,7 @@
 				TargetAttributes = {
 					9A35862A1B582A5E00D7953C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = RJWKXA2BDC;
 					};
 					9A3586411B582A5E00D7953C = {
 						CreatedOnToolsVersion = 6.4;
@@ -420,9 +421,11 @@
 			baseConfigurationReference = 6862F909A38714B5EFDF24DB /* Pods-CIProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Conrad Bartels Daal (3JM9Y2UDS4)";
 				INFOPLIST_FILE = CIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2d66b246-52e3-457e-8e89-1297deafd3dd";
 			};
 			name = Debug;
 		};
@@ -431,9 +434,11 @@
 			baseConfigurationReference = 25F0411307012D33B8F39F06 /* Pods-CIProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: m-wise b.v. (RJWKXA2BDC)";
 				INFOPLIST_FILE = CIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "135f5b01-ff55-47f1-a9cf-7b565b292d25";
 			};
 			name = Release;
 		};
